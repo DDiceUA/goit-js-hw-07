@@ -13,8 +13,7 @@ form.addEventListener("submit", event => {
     }
     else{
         console.log({email, password});
+        form.reset();
     }
-    
-    form.reset();
     
 });
